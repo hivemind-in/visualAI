@@ -5,10 +5,10 @@ A GUI based end-to-end deep learning model builder
 
 # How to run this project
 ```shell
-npm install
+chmod +x ./run.sh
 ```
 ```shell
-npm run electron-dev
+./run.sh
 ```
 
 # Create backend branch before you begin working
