@@ -11,7 +11,7 @@ chmod +x ./run.sh
 ./run.sh
 ```
 
-## - [x] Create backend branch before you begin working
+:heavy_check_mark: Create backend branch before you begin working
 
 ## JSON for model
 
