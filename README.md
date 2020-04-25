@@ -11,7 +11,7 @@ chmod +x ./run.sh
 ./run.sh
 ```
 
-## -[x] Create backend branch before you begin working
+## - [x] Create backend branch before you begin working
 
 ## JSON for model
 
