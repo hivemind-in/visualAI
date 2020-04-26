@@ -7,12 +7,14 @@ const url = require('url');
 const isDev = require('electron-is-dev');
 
 let mainWindow;
+console.log(__dirname)
 function createWindow() {
   mainWindow = new BrowserWindow({
     width: 800, 
     height: 480,
     fullscreen: false,
     resizable: true,
+    icon: __dirname +  "/visualAI.png",
     webPreferences: {
       nodeIntegration: true
     },

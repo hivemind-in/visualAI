@@ -1,2 +1,0 @@
-const SIGNUP_PAGE = "SIGNUP_PAGE"
-const LOGIN_PAGE = "LOGIN_PAGE"
