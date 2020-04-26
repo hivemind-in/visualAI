@@ -8,14 +8,18 @@ import store from "./redux/store";
 import SideMenu from './components/SideMenu'
 import FloatingMenu from './components/FloatingMenu'
 import FluidConf from './components/FloatingConf'
+import OverlayPage from './components/OverlayPage';
+import Main from './pages/Main';
+import Pages from './components/Pages'
 function App() {
   //  const [toenter, setToenter] = useState(false)
   return (
     <Provider store={store}>
       <div className={"app-main"}>
         <SideMenu />
-        <FloatingMenu />
-        <FluidConf />
+        {/* <OverlayPage /> */}
+        <Pages />
+        {/* <Main /> */}
       </div>
     </Provider>
   )
