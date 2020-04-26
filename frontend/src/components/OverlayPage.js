@@ -1,8 +1,8 @@
 import React from 'react'
 import { connect } from "react-redux";
-import Icon from 'react-icons-kit';
+
 import { openNewProjectPage, openProjectPage } from "../redux/actions/open";
-import {ic_cancel} from 'react-icons-kit/md/ic_cancel'
+
 function OverlayPage(props) {
     return (
         <div
@@ -10,15 +10,7 @@ function OverlayPage(props) {
                 display: (props.open || props.new) ? "block" : "none"
             }}
             className={"overlay-page-main"}>
-                <div 
-                onClick={ () => {
-                    if(props.open)
-                    props.setOpen(!props.open)
-                    else props.setNew(!props.new)
-                }}  
-                className={"cancel-btn"}>
-                    <Icon size={20} icon={ic_cancel} />   
-                </div>
+                
 
         </div>
     )
