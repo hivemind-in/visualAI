@@ -1,21 +1,3 @@
-# visualAI
-A GUI based end-to-end deep learning model builder
-
-
-
-# How to run this project
-```shell
-chmod +x ./run.sh
-```
-```shell
-./run.sh
-```
-
-## Create backend branch before you begin working :heavy_check_mark: 
-
-## JSON for model
-
-```json
 {
     "layers": [
         {
@@ -65,4 +47,3 @@ chmod +x ./run.sh
         }
     ]
 }
-```
