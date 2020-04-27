@@ -3,7 +3,8 @@ import zerorpc
 
 class Ping(object):
     def ping(self):
-        return "receiving data from ip=%s at port=%s" % self.ip,self.port
+        return "receiving data from ip=127.0.0.1 at port=5001"
+
 
 class Endpoint(object):
 
@@ -13,5 +14,7 @@ class Endpoint(object):
         self.port = port
         self.server = zerorpc.Server(Ping())
         self.server.bind(type_con+"://"+ip+":"+port)
+    
+    def run_server(self):
         self.server.run()
 
