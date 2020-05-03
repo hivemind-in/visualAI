@@ -1,13 +1,15 @@
 import React from 'react'
-import FloatingMenu from '../components/FloatingMenu'
-import FluidConf from '../components/FloatingConf'
-import Compile from '../components/Compile'
+
+import ConfigMenu from '../components/ConfigMenu';
+import Model from '../components/Model';
+import Floating from '../components/Floating';
 function Main(props) {
+    
     return (
         <div className={"main-main"}>
-            <FluidConf />
-            <FloatingMenu />
-            <Compile/>
+            <ConfigMenu />
+            <Model />
+            <Floating /> 
         </div>
     )
 }

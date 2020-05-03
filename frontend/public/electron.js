@@ -20,7 +20,7 @@ function createWindow() {
     },
     minimizable: false,
   });
-  mainWindow.maximize();
+  // mainWindow.maximize();
   // mainWindow.removeMenu()
   // mainWindow.setMinimizable(false);
   // mainWindow.setMenu(false);

@@ -5,22 +5,12 @@ import './App.css';
 //import Main from './pages/Main'
 import { Provider } from "react-redux";
 import store from "./redux/store";
-import SideMenu from './components/SideMenu'
-import FloatingMenu from './components/FloatingMenu'
-import FluidConf from './components/FloatingConf'
-import OverlayPage from './components/OverlayPage';
 import Main from './pages/Main';
-import Pages from './components/Pages'
 function App() {
   //  const [toenter, setToenter] = useState(false)
   return (
     <Provider store={store}>
-      <div className={"app-main"}>
-        <SideMenu />
-        {/* <OverlayPage /> */}
-        <Pages />
-        {/* <Main /> */}
-      </div>
+        <Main />
     </Provider>
   )
   //<BrowserRouter>
