@@ -26,7 +26,7 @@ function SearchPanel({showSearch, setShowSearch}) {
   return (
       <div 
       style={{
-        height: (search !== '' && showSearch !== false) ? '150px':'',
+        height: (search !== '' && showSearch !== false) ? '120px':'',
         transform: showSearch ? 'translateY(130px)':'translateY(0)'
       }}
       className={'search-panel'}>
