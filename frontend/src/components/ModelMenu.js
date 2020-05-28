@@ -13,7 +13,9 @@ function ModelMenu(props) {
                     <Icon icon={folderOpen} size={20} />
                 </div>
             </div>
-            <div className={'hr'}></div>
+            {
+                // <div className={'hr'}></div>
+            }
         </div>
     )
 }

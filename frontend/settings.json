@@ -1,0 +1,20 @@
+{
+    "Block Name": {
+        "options": [
+            {
+                "placeholder": "Placeholder",
+                "type:": "dropdown",
+                "ddOptions": [
+                    "option 1",
+                    "option 2"
+                ]
+            },
+            {
+                "placeholder": "Placeholder 2",
+                "type:": "file",
+                "ddOptions": []
+            }
+        ]
+    }
+    
+}
