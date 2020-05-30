@@ -1,68 +1,19 @@
+:warning: This project is under active development. Contributors are welcome :warning:
 # visualAI
-A GUI based end-to-end deep learning model builder
+An open-source GUI based end-to-end deep learning model prototyping tool
 
 
 
-# How to run this project
-```shell
-chmod +x ./run.sh
-```
-```shell
-./run.sh
-```
+## Road Map
+### Frontend
+- [x] Base GUI and animations
+- [x] Search panel
+- [ ] adding layers
+- [ ] show menu options
+- [ ] Jupyter notebook integration
+- [ ] Save model as JSON file
 
-## Create backend branch before you begin working :heavy_check_mark: 
-
-## JSON for model
-
-```json
-{
-    "layers": [
-        {
-            "neurons": 20,
-            "visual": {
-                "position": [
-                    200,
-                    315
-                ],
-                "color": "red"
-            },
-            "dropout": false,
-            "filter": 5,
-            "kernal": 1,
-            "input_size": 6,
-            "output_size": 12
-        },
-        {
-            "neurons": 10,
-            "visual": {
-                "position": [
-                    300,
-                    415
-                ],
-                "color": "red"
-            },
-            "dropout": true,
-            "filter": 5,
-            "kernal": 1,
-            "input_size": 12,
-            "output_size": 6
-        },
-        {
-            "neurons": 10,
-            "visual": {
-                "position": [
-                    300,
-                    415
-                ],
-                "color": "red"
-            },
-            "dropout": true,
-            "filter": 5,
-            "kernal": 1,
-            "input_size": 12,
-            "output_size": 6
-        }
-    ]
-}
-```
+### Backend
+- [ ] Service worker to accept data steam from frontend
+- [ ] Use EaseDL to create end to end model pipeline
+- [ ] Train model to retun data stream back to frontend
